@@ -49,7 +49,7 @@ class App extends Component {
       // update the count - number of correct guessed 
       this.setState({ count: this.state.count + 1 });
       // update the game message (top navebar)
-      this.setState({ Message: "You're doing great! You habe not clicked that image."});
+      this.setState({ Message: "You're doing great! You have not clicked that image."});
       console.log(this.state.count);
   }
 
@@ -58,7 +58,7 @@ class App extends Component {
   {
     // update the game message to let the player know they have clicked that img already. Rest game.
     this.setState({ 
-    Message: "KO.You already click that image. The game will reset",
+    Message: "KO.You already clicked that image. The game will reset",
     // update the count. number of correct clicks. back to 0 to reset game.
     count: 0,
     // update top score
